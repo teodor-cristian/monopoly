@@ -1,0 +1,25 @@
+@import './../../../_settings/_base.css';
+
+.diceValue4 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    transform: rotateY(-90deg) translateZ(var(--dice-spin-z-translation));
+}
+
+.dot1 {
+    justify-self: start;
+}
+
+.dot2 {
+    justify-self: end;
+}
+
+.dot3 {
+    align-self: end;
+}
+
+.dot4 {
+    justify-self: end;
+    align-self: end;
+}

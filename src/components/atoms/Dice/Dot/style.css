@@ -1,0 +1,8 @@
+@import './../../../_settings/_base.css';
+
+.dot {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: var(--dice-point-color);
+}

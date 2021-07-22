@@ -1,0 +1,31 @@
+@import './../../../_settings/_base.css';
+
+.diceValue5 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    transform: rotateX( 90deg) translateZ(var(--dice-spin-z-translation));
+}
+
+.dot1 {
+    justify-self: start;
+}
+
+.dot2 {
+    justify-self: end;
+}
+
+.dot3 {
+    justify-self: center;
+    align-self: center;
+    grid-column: 1 / span 2;
+}
+
+.dot4 {
+    align-self: end;
+}
+
+.dot5 {
+    justify-self: end;
+    align-self: end;
+}

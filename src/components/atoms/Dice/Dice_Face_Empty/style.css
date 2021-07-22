@@ -1,0 +1,13 @@
+@import './../../../_settings/_base.css';
+
+.diceFace {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    border: 1px solid var(--grey-1);
+    border-radius: 1rem;
+    padding: 2rem;
+    /* background-color: rgba(192,192,192); */
+    background: #fff;
+    box-shadow: inset 0px 0px 22px -2px rgba(127,127,127,0.37);
+}

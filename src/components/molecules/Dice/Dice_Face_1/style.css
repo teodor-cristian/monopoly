@@ -1,0 +1,7 @@
+@import './../../../_settings/_base.css';
+
+.diceValue1 {
+    display: grid;
+    place-items: center;
+    transform: rotateY(  0deg) translateZ(var(--dice-spin-z-translation));
+}

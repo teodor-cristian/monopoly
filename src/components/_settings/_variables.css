@@ -1,0 +1,24 @@
+:root {    
+    /*
+    * Colors
+    */
+    --brand: #2995c0;
+    --color-type-body: var(--grey-1);
+    --success: #2a7e2e;
+    --atenttion: #2196f3;
+    --wait: #fff8dd;
+    --error: #d92525;
+
+    --dice-point-color: #282c34;
+    --grey-1: #ccc;
+  
+    /*
+    * Fonts
+    */
+    --base-font-family: 'Spartan', sans-serif;
+    --base-font-lineheight: 1.5em;
+
+    --dice-spin-z-translation: 6rem;
+  }
+  
+  

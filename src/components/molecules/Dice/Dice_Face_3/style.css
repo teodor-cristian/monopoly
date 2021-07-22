@@ -1,0 +1,20 @@
+@import './../../../_settings/_base.css';
+
+.diceValue3 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    transform: rotateY(180deg) translateZ(var(--dice-spin-z-translation));
+}
+
+.dot1 {
+    justify-self: end;
+}
+
+.dot2 {
+    justify-self: center;
+    align-self: center;
+}
+
+.dot3 {
+    align-self: end;
+}
