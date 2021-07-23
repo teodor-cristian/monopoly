@@ -4,6 +4,8 @@ import classNames from 'classnames';
 import styles from './style.css';
 import Dice from '../../organisms/Dice';
 import Button from '../../atoms/Button';
+import Header1 from '../../atoms/Header1';
+import DelayedNumberDisplay from '../../atoms/DelayedNumberDisplay';
 
 const DiceContainer = (props) => {
   const { className } = props;
@@ -30,6 +32,15 @@ const DiceContainer = (props) => {
         />
       </div>
       <div className={classNames(styles.diceActionsContainer, className)}>
+        <Header1>
+          Total:
+          {' '}
+          <DelayedNumberDisplay
+            number={randomSpinNo[0] + randomSpinNo[1]}
+            delay={2000}
+            key={Math.random()}
+          />
+        </Header1>
         <Button onClick={spinDice}>Spin</Button>
       </div>
     </div>
