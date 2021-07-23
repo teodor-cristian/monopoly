@@ -11,6 +11,13 @@
 
     --dice-point-color: #282c34;
     --grey-1: #ccc;
+    --btn-border-color: #40E0D0;
+    --btn-hover-color: #40e0d038;
+
+    --text-color: #272838;
+
+    /* Animations variables */
+    --dice-animation-translate-z: -100rem;
   
     /*
     * Fonts

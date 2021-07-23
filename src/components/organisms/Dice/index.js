@@ -10,14 +10,7 @@ import DiceFace5 from '../../molecules/Dice/Dice_Face_5';
 import DiceFace6 from '../../molecules/Dice/Dice_Face_6';
 
 const Dice = (props) => {
-  const { className } = props;
-  const [randomSpinNo, setRandomSpinNo] = React.useState(1);
-
-  console.log( randomSpinNo )
-  const spinDice = () => {
-    const randomNo = Math.floor(Math.random() * 6) + 1;
-    setRandomSpinNo(randomNo);
-  };
+  const { className, randomSpinNo } = props;
 
   return (
     <div>
@@ -29,17 +22,18 @@ const Dice = (props) => {
         <DiceFace5 />
         <DiceFace6 />
       </div>
-      <button onClick={spinDice}>Spin</button>
     </div>
   );
 };
 
 Dice.propTypes = {
   className: PropTypes.string,
+  randomSpinNo: PropTypes.number,
 };
 
 Dice.defaultProps = {
   className: '',
+  randomSpinNo: 1,
 };
 
 export default Dice;

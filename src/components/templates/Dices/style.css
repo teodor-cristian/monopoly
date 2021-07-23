@@ -1,0 +1,25 @@
+@import '../../_settings/_base.css';
+
+.diceWrapper {
+    width: 50rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 1rem;
+    border: 1px solid var(--grey-1);
+}
+
+.diceContainer {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.diceActionsContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,8 +1,8 @@
 
 .dice {
-    width: 10rem;
-    height: 10rem;
-    margin: 20rem;
+    width: 13rem;
+    height: 12rem;
+    border: none;
     position: relative;
     transform-style: preserve-3d;
     transform: translateZ(-100px);
