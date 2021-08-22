@@ -1,5 +1,6 @@
 [build]	
-    build = "build"
+    command = "npm run build"
+    build = "dist"
 
 [build.environment]	
     NODE_ENV = "development"	
