@@ -5,7 +5,7 @@ import styles from './style.css';
 
 const Button = (props) => {
   const {
-    onClick, disabled, className, children 
+    onClick, disabled, className, children,
   } = props;
 
   const onClickCustom = (event) => {
@@ -20,8 +20,6 @@ const Button = (props) => {
     circle.style.left = `${event.clientX - button.offsetLeft - radius}px`;
     circle.style.top = `${event.clientY - button.offsetTop - radius}px`;
     circle.classList.add(styles.ripple);
-
-    console.log(circle)
 
     const ripple = button.getElementsByClassName(styles.ripple)[0];
 
