@@ -1,0 +1,8 @@
+@import './../../_settings/_base.css';
+
+.paragraph {
+    font-family: var(--base-font-family);
+    font-size: 1.2rem;
+    margin: 0;
+    color: var(--text-color);
+}

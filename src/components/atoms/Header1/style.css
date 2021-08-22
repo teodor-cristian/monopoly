@@ -1,0 +1,7 @@
+@import './../../_settings/_base.css';
+
+.header1 {
+    font-family: var(--base-font-family);
+    font-size: 2rem;
+    color: var(--text-color);
+}

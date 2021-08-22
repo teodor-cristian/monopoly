@@ -1,0 +1,15 @@
+@import './../../_settings/_base.css';
+
+.monopolyCardJail {
+    width: 17rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+}
+
+.customHeader {
+    color: var(--card-color-red);
+}

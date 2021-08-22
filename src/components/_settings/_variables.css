@@ -11,10 +11,19 @@
 
     --dice-point-color: #282c34;
     --grey-1: #ccc;
+    --grey-2: #15161f;
     --btn-border-color: #40E0D0;
     --btn-hover-color: #40e0d038;
 
     --text-color: #272838;
+
+    /* Card colors */
+    --card-color-red: #D40204;
+    --card-color-green: #048167;
+    --card-color-blue: #284FA0;
+    --card-color-purple: #560F38;
+    --card-color-yellow: #FDCC01;
+
 
     /* Animations variables */
     --dice-animation-translate-z: -100rem;
